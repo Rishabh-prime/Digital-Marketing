@@ -82,7 +82,7 @@ function changeBackground() {
     });
 
     project3.on('click', () => {
-        projectImage.css('background-image', 'url("/Images/change-iamge3.jpg")');
+        projectImage.css('background-image', 'url("./Images/change-iamge3.jpg")');
         console.log("button3 clicked");
     });
 }
